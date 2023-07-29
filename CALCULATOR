@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int;
+{
+  int a,b,ch,add,sub,multi,divide
+  cout<<"Enter Two Number: ";
+	cin>>a>>b;
+	cout<<"Enter Choise ";
+	cin>>ch;
+	if(ch==1)
+		{
+		   add=a+b;
+		   cout<<add;
+    }
+	else if(ch==2)
+		{
+		   sub=a-b;
+		   cout<<sub;
+    }
+	else if(ch==3)
+		{
+		   multi=a×b;
+		   cout<<multi;
+    }
+	else if(ch==4)
+		{
+		   divide=a/b;
+		   cout<<divide;
+    }
+	else
+		{
+		   cout<<"Sorry";
+		}
+		return 0;
+}
